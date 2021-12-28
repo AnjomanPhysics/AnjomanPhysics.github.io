@@ -1,0 +1,19 @@
+<html> 
+    <head> 
+      <script> 
+        function disableClick(){ 
+          document.onclick=function(event){ 
+            if (event.button == 2) { 
+              alert('Right Click Message'); 
+              return false; 
+            } 
+          } 
+        } 
+      </script> 
+    </head> 
+    <body onLoad="disableClick()"> 
+        <iframe src = "https://61c60634ce344.mywebzi.ir">
+
+        </iframe>
+    </body> 
+  </html> 
