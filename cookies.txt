@@ -1,4 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-61c600151d91e.mywebzi.ir	TRUE	/	FALSE	1999999999	Webzi-44136cbfe75a40cfa6dc5b19f730d045	5bs9sb3v54f2aphhkd7btjhpn4
-
