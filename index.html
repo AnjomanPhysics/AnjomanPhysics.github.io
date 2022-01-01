@@ -2,15 +2,19 @@
     <head> 
         <title>انجمن فیزیک</title>
         <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/education-science-vol-2-1/512/atom_science_physics_energay-256.png">
-        <script>
-            document.addEventListener("contextmenu", function(event){
-            event.preventDefault();
-            alert('Right Click is Disabled');    
-            }, false);
-        </script>
     </head> 
+    
     <body style = "overflow: hidden;"> 
-        <iframe src = "https://61c60634ce344.mywebzi.ir" height = "100%" width = "100%" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+        <div class = "unselectable" ><iframe src = "https://61c60634ce344.mywebzi.ir" height = "100%" width = "100%" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe></div>
         </iframe>
+        <style>
+            body {
+                -webkit-user-select: none;  /* Chrome all / Safari all */
+                -moz-user-select: none;     /* Firefox all */
+                -ms-user-select: none;      /* IE 10+ */
+                -o-user-select: none;
+                user-select: none;
+            }   
+        </style>
     </body> 
 </html> 
